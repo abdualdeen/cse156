@@ -1,0 +1,368 @@
+\documentclass[12pt]{scrartcl}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{.25cm}
+
+\usepackage{graphicx}
+
+\usepackage{xcolor}
+
+\definecolor{darkred}{rgb}{0.5,0,0}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\usepackage{hyperref}
+\hypersetup{
+  letterpaper,
+  colorlinks,
+  linkcolor=red,
+  citecolor=darkgreen,
+  menucolor=darkred,
+  urlcolor=blue,
+  pdfpagemode=none,
+  pdftitle={CSCE 156 Lab Handout},
+  pdfauthor={Christopher M. Bourke},
+  pdfsubject={},
+  pdfkeywords={}
+}
+
+\definecolor{MyDarkBlue}{rgb}{0,0.08,0.45}
+\definecolor{MyDarkRed}{rgb}{0.45,0.08,0}
+\definecolor{MyDarkGreen}{rgb}{0.08,0.45,0.08}
+
+\definecolor{mintedBackground}{rgb}{0.95,0.95,0.95}
+\definecolor{mintedInlineBackground}{rgb}{.90,.90,1}
+
+%\usepackage{newfloat}
+\usepackage[newfloat=true]{minted}
+\setminted{mathescape,
+               linenos,
+               autogobble,
+               frame=none,
+               framesep=2mm,
+               framerule=0.4pt,
+               %label=foo,
+               xleftmargin=2em,
+               xrightmargin=0em,
+               startinline=true,  %PHP only, allow it to omit the PHP Tags *** with this option, variables using dollar sign in comments are treated as latex math
+               numbersep=10pt, %gap between line numbers and start of line
+               style=default, %syntax highlighting style, default is "default"
+               			    %gallery: http://help.farbox.com/pygments.html
+			    	    %list available: pygmentize -L styles
+               bgcolor=mintedBackground} %prevents breaking across pages
+               
+\setmintedinline{bgcolor={mintedBackground}}
+\setminted[text]{bgcolor={mintedBackground},linenos=false,autogobble,xleftmargin=1em}
+%\setminted[php]{bgcolor=mintedBackgroundPHP} %startinline=True}
+\SetupFloatingEnvironment{listing}{name=Code Sample}
+\SetupFloatingEnvironment{listing}{listname=List of Code Samples}
+
+\title{CSCE 156 -- Computer Science II}
+\subtitle{Lab 2.0 - Conditionals \& Loops}
+\author{~}
+\date{~}
+
+\begin{document}
+
+\maketitle
+
+\section*{Prior to Lab}
+
+Review this laboratory handout prior to lab.
+
+For Java:
+\begin{enumerate}
+  \item Read if-then-else tutorial: \\
+  	\url{http://download.oracle.com/javase/tutorial/java/nutsandbolts/if.html}
+  \item Read switch/case tutorial:\\
+  	\url{http://download.oracle.com/javase/tutorial/java/nutsandbolts/switch.html}
+  \item Read for loop tutorial:\\
+  	\url{http://download.oracle.com/javase/tutorial/java/nutsandbolts/for.html}
+  \item Read while/do while loop tutorial:\\
+  	\url{http://download.oracle.com/javase/tutorial/java/nutsandbolts/while.html}
+\end{enumerate}
+
+For PHP:
+\begin{enumerate}
+  \item Refer to the Control Structures section in the PHP Manual: \\
+    \url{http://www.php.net/manual/en/language.control-structures.php}
+\end{enumerate}
+
+\section*{Lab Objectives \& Topics}
+Following the lab, you should be able to:
+\begin{itemize}
+  \item Use if-then-else statements to control the logical flow of the program.
+  \item Use switch-case statement to control the logical flow of the program.
+  \item Use for/while loops to implement repetition statements in your program.
+  \item Write complex programs that require conditional logical statements and or loops.
+\end{itemize}
+
+\section*{Peer Programming Pair-Up}
+
+To encourage collaboration and a team environment, labs will be
+structured in a \emph{pair programming} setup.  At the start of
+each lab, you will be randomly paired up with another student 
+(conflicts such as absences will be dealt with by the lab instructor).
+One of you will be designated the \emph{driver} and the other
+the \emph{navigator}.  
+
+The navigator will be responsible for reading the instructions and
+telling the driver what to do next.  The driver will be in charge of the
+keyboard and workstation.  Both driver and navigator are responsible
+for suggesting fixes and solutions together.  Neither the navigator
+nor the driver is ``in charge.''  Beyond your immediate pairing, you
+are encouraged to help and interact and with other pairs in the lab.
+
+Each week you should alternate: if you were a driver last week, 
+be a navigator next, etc.  Resolve any issues (you were both drivers
+last week) within your pair.  Ask the lab instructor to resolve issues
+only when you cannot come to a consensus.  
+
+Because of the peer programming setup of labs, it is absolutely 
+essential that you complete any pre-lab activities and familiarize
+yourself with the handouts prior to coming to lab.  Failure to do
+so will negatively impact your ability to collaborate and work with 
+others which may mean that you will not be able to complete the
+lab.  
+
+\section*{Getting Started}
+
+Clone the project code for this lab from GitHub in Eclipse using the
+URL, \url{https://github.com/cbourke/CSCE156-Lab02}.
+Refer to Lab 1.0 for instructions on how to clone a project from GitHub.
+
+For those with prior Java experience, do the PHP section.  For those
+without prior Java experience, do the Java section.
+
+\part*{PHP}
+
+\section*{Conditionals \& Loops}
+
+PHP provides standard control structures for conditionals and repetition.  Specifically, PHP provides the usual if-then-else statements and while, for, and do-while loops.  The syntax for these control structures should look familiar; some examples:
+
+\begin{minted}{php}
+if(condition1) {
+  //DO SOMETHING
+} else if(condition2) {
+  //DO SOMETHING ELSE
+} else {
+  //OTHERWISE
+}
+
+for($i=0; $i<$n; $i++) {
+  //DO SOMETHING
+}
+
+$i=0;
+while($i<$n) {
+  //DO SOMETHING
+  $i++;
+}
+
+$i=0;
+do{ 
+  //DO SOMETHING
+  $i++;
+} while($i<$n);
+\end{minted}
+
+In addition, PHP provides a foreach-loop for iterating over elements in 
+an array.  This is not just for convenience: in PHP arrays are associative 
+so they are not necessarily indexed 0 thru n - 1; arrays may not even 
+be indexed with integers!  Instead, array should be considered to be a
+collection of key-value pairs.  The following examples illustrate the 
+foreach loop's usage.
+
+\begin{minted}{php}
+foreach($array as $value) {
+  print "$value \n";
+}
+
+foreach($array as $key => $value) {
+  print "The key $key maps to the value $value\n";
+}
+\end{minted}
+
+\section*{Activities}
+
+\subsection*{Sum of Natural Numbers}
+
+Natural numbers are the usual counting numbers; 1, 2, 3, \ldots.  In 
+this exercise you will write several loops to compute the sum of 
+natural numbers 1 thru $n$ where $n$ is read from the command line.  
+You will also write a foreach loop to iterate over an array and 
+process data.
+
+\begin{enumerate}
+  \item Open the \mintinline{text}{natural.php} source file.  The code 
+	to read in $n$ has already been provided for you.  An array mapping 
+	integer values 1 thru 10 to text values has also been created for you.
+  \item Write a for-loop and a while-loop to compute the sum of natural 
+  	numbers 1 thru $n$ and output the answer.
+  \item Write a foreach loop to iterate over the elements (key/value pairs) 
+	of the \mintinline{php}{$oneToTen} array.  As you iterate over the 
+	elements you should sum the keys and concatenate the values to 
+	formulate the following string (which you should output at the end 
+	of the for-loop):
+	
+	\mintinline{text}{one + two + three + four + five + six + seven + eight + nine + ten = 55}
+  \item Hand in your program using the webhandin and use the webgrader
+    to verify your program works correctly.
+\end{enumerate}
+	
+\subsection*{Child Tax Credit}
+
+When filing for federal taxes, a credit is given to tax payers 
+with dependent children according to the following rules.  The 
+first dependent child younger than 18 is worth a \$1000.00 credit.  
+Each dependent child younger than 18 after the first child is 
+worth a \$500 tax credit each.  You will complete a PHP script 
+to output a table of dependent children, how much each contributes 
+to a tax credit, and a total child tax credit.  Your table should 
+look something like the following.
+
+\begin{minted}{text}
+Child           Amount
+Tommy (14)      $1000.00
+Richard (12)    $500.00
+Harold (21)     $0.00
+Total Credit:   $1500.00
+\end{minted}
+
+\begin{enumerate}
+  \item Open the \mintinline{text}{Child.php} and 
+  	\mintinline{text}{ChildCredit.php} script files
+  \item The \mintinline{php}{Child} class has already been defined 
+  	and included in the \mintinline{text}{ChildCredit.php} script.  
+	Note how the \mintinline{php}{Child} class is used; several 
+	instances of children have been created and placed into an array.
+  \item Write code to iterate over the array, compute the child tax 
+	credits and output a table similar to the one above.  Note: to 
+	call a method on an instance of the \mintinline{php}{Child} class, 
+	use the following syntax: \mintinline{php}{$kid->getAge()}
+  \item Answer the questions in your worksheet and demonstrate your 
+  	working code to a lab instructor.
+\end{enumerate}
+	
+\subsection*{Advanced Activity (Optional)}
+	
+Modify the Child Tax Credit program to output the data in a 
+well-formatted HTML table.  Demonstrate your dynamic webpage 
+to a lab instructor.
+
+
+\newpage
+\part*{Java}
+
+\section*{Conditionals \& Loops}
+
+Java provides standard control structures for conditionals and 
+repetition.  Specifically, Java provides the usual if-then-else 
+statements and while, for, and do-while loops.  The syntax for 
+these control structures should look familiar; some examples:
+
+\begin{minted}{java}
+if(condition1) {
+  //DO SOMETHING
+} else if(condition2) {
+  //DO SOMETHING ELSE
+} else {
+  //OTHERWISE
+}
+
+for(int i=0; i<n; i++) {
+  //DO SOMETHING
+}
+
+int i=0;
+while(i<n) {
+  //DO SOMETHING
+  i++;
+}
+
+int i=0;
+do{ 
+  //DO SOMETHING
+  i++;
+} while(i<n);
+\end{minted}
+
+In addition, Java provides a foreach-loop, also referred to as an 
+\emph{enhanced for-loop}, for iterating over collections (classes 
+that implement the \mintinline{java}{Iterable} interface) or elements 
+in an array.  This feature is mostly for convenience.  The following 
+examples illustrate this loop's usage.
+
+\begin{minted}{java}
+String arr[] = new String[10];
+...
+for(String s : arr) {
+  System.out.println(s); 
+}
+\end{minted}
+
+\section*{Activities}
+
+\subsection*{Sum of Natural Numbers}
+
+Natural numbers are the usual counting numbers; 1, 2, 3, \ldots.  In 
+this exercise you will write several loops to compute the sum of 
+natural numbers 1 thru $n$ where $n$ is read from the command line.  
+You will also write an enhanced for-loop to iterate over an array and 
+process data.
+
+\begin{enumerate}
+  \item Open the \mintinline{text}{Natural.java} source file.  The code 
+	to read in $n$ has already been provided for you.  An array mapping 
+	integer values 1 thru 10 to text values has also been created for you.
+  \item Write a for-loop and a while-loop to compute the sum of natural 
+  	numbers 1 thru $n$ and output the answer.
+  \item Write a foreach loop to iterate over the elements (key/value pairs) 
+	of the \mintinline{java}{zeroToTen} array.  As you iterate over the 
+	elements,concatenate each string, delimited by a single space to a 
+	result string and print the result at the end of the loop.  Your 
+	result should look something like the following:
+	
+	\mintinline{text}{zero + one + two + three + four + five + six + seven + eight + nine + ten = 55}
+  \item Hand in your program using the webhandin and use the webgrader
+    to verify your program works correctly.
+\end{enumerate}
+
+\subsection*{Child Tax Credit}
+
+When filing for federal taxes, a credit is given to tax payers 
+with dependent children according to the following rules.  The 
+first dependent child younger than 18 is worth a \$1000.00 credit.  
+Each dependent child younger than 18 after the first child is 
+worth a \$500 tax credit each.  You will complete a Java program
+to output a table of dependent children, how much each contributes 
+to a tax credit, and a total child tax credit.  Your table should 
+look something like the following.
+
+\begin{minted}{text}
+Child           Amount
+Tommy (14)      $1000.00
+Richard (12)    $500.00
+Harold (21)     $0.00
+Total Credit:   $1500.00
+\end{minted}
+
+\begin{enumerate}
+  \item Open the \mintinline{text}{Child.java} and 
+  	\mintinline{text}{ChildCredit.java} source files
+  \item The \mintinline{java}{Child} class has already been implemented
+  	for you. Note how the \mintinline{java}{Child} class is used; several 
+	instances of children have been created and placed into an array.
+  \item Write code to iterate over the array, compute the child tax 
+	credits and output a table similar to the one above.  Note: to 
+	call a method on an instance of the \mintinline{java}{Child} class, 
+	use the following syntax: \mintinline{java}{kid.getAge()}
+  \item Answer the questions in your worksheet and demonstrate your 
+  	working code to a lab instructor.
+\end{enumerate}
+
+\subsection*{Advanced Activity (Optional)}
+
+Use the \mintinline{java}{String.format()} method to reformat the 
+output of the Child Tax Credit program to print every piece of data 
+in its own column.
+
+\end{document}
