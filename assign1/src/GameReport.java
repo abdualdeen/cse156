@@ -26,15 +26,23 @@ public class GameReport {
 				//Printing the publisher game count.
 				System.out.println("Publisher Game Count");
 				System.out.println("======================");
-				
-//				for (Game pub : gameList) {
-//					if (pub.getPub() == null || pub.getPub() == "") {
-//						
-//					} else {
-//						System.out.println(pub.getPub());
+//				int pubGameCount = 1;
+//				System.out.println(gameList.size());
+//				for (int i = 0; i<gameList.size(); i++) {
+//					for (int j = i+1; j<gameList.size(); j++) {
 //					}
-//
 //				}
+				String wordA = null;
+				String WordB[] = null;
+				for (Game pub : gameList) {
+					if (pub.getPub() == null || pub.getPub() == "") {
+						
+					} else {
+							wordA = pub.getPub();
+							System.out.println(wordA);
+					}
+
+				}
 				//Printing the game platform count.
 				System.out.println("Game Platform Count");
 				System.out.println("======================");
