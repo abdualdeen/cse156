@@ -13,31 +13,19 @@ public class Game {
 	}
 	@Override
 	public String toString() {
-		return "Game [gName=" + gName + ", pub=" + pub + ", year=" + year + ", plat=" + plat + "]";
+		return gName + "," + pub + "," + year + ","+ plat;
 	}
 	public String getgName(){
 		return this.gName;
 	}
-	public void setgName(String name) {
-		this.gName = name;
-	}
 	public String getPub() {
 		return pub;
-	}
-	public void setPub(String pub) {
-		this.pub = pub;
 	}
 	public String getYear() {
 		return year;
 	}
-	public void setYear(String year) {
-		this.year = year;
-	}
 	public String getPlat() {
 		return plat;
-	}
-	public void setPlat(String plat) {
-		this.plat = plat;
 	}
 
 }
