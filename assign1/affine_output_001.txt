@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	newString cannot be resolved to a variable
+	Cannot invoke indexOf(String) on the primitive type int
+	The method parseInt(String, int) in the type Integer is not applicable for the arguments (Scanner, int)
+
+	at Affine.main(Affine.java:23)
+

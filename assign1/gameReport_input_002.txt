@@ -1,0 +1,14 @@
+Mass Effect,Bioware,2009,PC
+Mass Effect,Bioware,2009,PS3
+Mass Effect,Bioware,2009,XBOX
+Mass Effect Andromeda,BioWare,2019,PC
+,Nintendo,,
+NBA 2K20,2K GAMES,2020,XBOX
+NBA 2K20,2K GAMES,2020,PS3
+NBA 2K20,2K GAMES,2020,PC
+NBA 2K19,2K GAMES,2019,PS3
+NBA 2K19,2K GAMES,2019,XBOX
+NBA 2K19,2K GAMES,2019,PC
+Call of Duty,Activision,2005,PC
+Call of Duty World War,Activision,2018,PC
+,Bandai,,

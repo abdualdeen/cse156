@@ -1,0 +1,18 @@
+Publisher Game Count
+======================
+Bethesda		2
+CD Project Red		0
+Microsoft		0
+Mojang		2
+Obisidan		0
+Obsidian		2
+Game Platform Count
+======================
+		0
+Fallout 2		0
+Fallout New Vegas		0
+Minecraft		3
+Skyrim		3
+SomeGame		0
+The Outer Worlds		3
+

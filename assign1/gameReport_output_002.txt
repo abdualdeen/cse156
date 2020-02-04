@@ -1,0 +1,18 @@
+Publisher Game Count
+======================
+2K GAMES		2
+Activision		2
+Bandai		1
+BioWare		1
+Bioware		1
+Nintendo		1
+Game Platform Count
+======================
+		0
+Call of Duty		0
+Call of Duty World War		0
+Mass Effect		3
+Mass Effect Andromeda		0
+NBA 2K19		3
+NBA 2K20		3
+
