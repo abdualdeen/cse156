@@ -1,5 +1,9 @@
 package com.tbf;
-
+/**
+ * 
+ * This deals with the private investment entries in the assets file.
+ *
+ */
 public class PrivateInvest {
 	private String code;
 	private String accType;
@@ -20,6 +24,11 @@ public class PrivateInvest {
 	}
 	
 	
+	public PrivateInvest() {
+		
+			}
+
+
 	public String getCode() {
 		return code;
 	}

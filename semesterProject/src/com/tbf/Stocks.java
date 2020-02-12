@@ -1,5 +1,9 @@
 package com.tbf;
-
+/**
+ * 
+ * This deals with all the stock entries in the assets file.
+ *
+ */
 public class Stocks {
 	private String code;
 	private String accType;
@@ -25,6 +29,11 @@ public class Stocks {
 	}
 	
 	
+	public Stocks() {
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public String getCode() {
 		return code;
 	}

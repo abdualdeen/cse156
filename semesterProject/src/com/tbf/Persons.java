@@ -1,7 +1,11 @@
 package com.tbf;
 
 import java.util.ArrayList;
-
+/**
+ * The Persons class deals with personCode, broker status, first and last name, address and email address.
+ * 
+ *
+ */
 public class Persons {
 	private String personCode;
 	private String brokerStatus;
@@ -9,7 +13,14 @@ public class Persons {
 	private String Address;
 	private ArrayList<String> emailAddress;
 
-	
+	/**
+	 * This constructor is used when person has all the needed information.
+	 * @param personCode
+	 * @param brokerStatus
+	 * @param name
+	 * @param address
+	 * @param emailAddress
+	 */
 	public Persons(String personCode, String brokerStatus, Name name, String address, ArrayList<String> emailAddress) {
 		super();
 		this.personCode = personCode;
@@ -19,7 +30,13 @@ public class Persons {
 		this.setEmailAddress(emailAddress);
 	}
 
-
+	/**
+	 * This constructor used when the person set does not contain any email address(s).
+	 * @param personCode
+	 * @param brokerStatus
+	 * @param name
+	 * @param address
+	 */
 	public Persons(String personCode, String brokerStatus, Name name, String address) {
 		super();
 		this.personCode = personCode;
@@ -28,7 +45,18 @@ public class Persons {
 		this.Address = address;
 	}
 
+	
+	/**
+	 * Constructor used to initialize variable before while loop that iterates through the file.
+	 */
+	public Persons() {
+	}
 
+	
+	/**
+	 * Here lies the setters and getters for each variable.
+	 * @return
+	 */
 	public String getPersonCode() {
 		return personCode;
 	}

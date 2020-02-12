@@ -1,5 +1,9 @@
 package com.tbf;
-
+/**
+ * This class deals specifically with all the deposit accounts in the Assets file.
+ * 
+ *
+ */
 public class DepositAssets {
 	private String code;
 	private String accType;
@@ -16,6 +20,10 @@ public class DepositAssets {
 	}
 	
 	
+	public DepositAssets() {
+			}
+
+
 	public String getCode() {
 		return code;
 	}

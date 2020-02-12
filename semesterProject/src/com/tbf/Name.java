@@ -1,5 +1,9 @@
 package com.tbf;
-
+/**
+ * This class is used to manage the name from the Persons file. It stores the first and last name.
+ * 
+ *
+ */
 public class Name {
 	private String firstName;
 	private String lastName;
