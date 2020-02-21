@@ -4,14 +4,14 @@ package com.tbf;
  * 
  *
  */
-public class DepositAssets {
+public class DepositAssets{
 	private String code;
 	private String accType;
 	private String label;
-    private String apr;
+    private double apr;
     
     
-	public DepositAssets(String code, String accType, String label, String apr) {
+	public DepositAssets(String code, String accType, String label, double apr) {
 		super();
 		this.code = code;
 		this.accType = accType;
@@ -42,10 +42,10 @@ public class DepositAssets {
 	public void setLabel(String label) {
 		this.label = label;
 	}
-	public String getApr() {
+	public double getApr() {
 		return apr;
 	}
-	public void setApr(String apr) {
+	public void setApr(double apr) {
 		this.apr = apr;
 	}
 }

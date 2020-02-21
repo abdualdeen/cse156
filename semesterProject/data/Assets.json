@@ -2,356 +2,356 @@
   "code": "BX001-23",
   "accType": "D",
   "label": "Money Market Savings",
-  "apr": "1.05"
+  "apr": 1.05
 }{
   "code": "AGTSAV",
   "accType": "D",
   "label": "Savings Account",
-  "apr": "0.25"
+  "apr": 0.25
 }{
   "code": "CD99312",
   "accType": "D",
   "label": "5-year CD",
-  "apr": "4.35"
+  "apr": 4.35
 }{
   "code": "CD1Y3X",
   "accType": "D",
   "label": "1-year Rollover CD",
-  "apr": "2.75"
+  "apr": 2.75
 }{
   "code": "CD1Y3Y",
   "accType": "D",
   "label": "1-year Rollover CD",
-  "apr": "2.75"
+  "apr": 2.75
 }{
   "code": "RIRA01",
   "accType": "D",
   "label": "Roth IRA",
-  "apr": "3.4"
+  "apr": 3.4
 }{
   "code": "GOOG001",
   "accType": "S",
   "label": "Google Inc.",
-  "quartDivi": "0.0",
-  "baseROR": "5.6",
-  "beta": "-0.05",
+  "quartDivi": 0.0,
+  "baseROR": 5.6,
+  "beta": -0.05,
   "stockSymb": "GOOG",
-  "sharePrice": "814.708"
+  "sharePrice": 814.708
 }{
   "code": "DIAGEO12",
   "accType": "S",
   "label": "Diageo PLC",
-  "quartDivi": "12.00",
-  "baseROR": "3.2",
-  "beta": "0.01",
+  "quartDivi": 12.0,
+  "baseROR": 3.2,
+  "beta": 0.01,
   "stockSymb": "DEO",
-  "sharePrice": "122.75"
+  "sharePrice": 122.75
 }{
   "code": "123APP",
   "accType": "S",
   "label": "Apple",
-  "quartDivi": "24.50",
-  "baseROR": "4.3",
-  "beta": "-0.07",
+  "quartDivi": 24.5,
+  "baseROR": 4.3,
+  "beta": -0.07,
   "stockSymb": "AAPL",
-  "sharePrice": "429.80"
+  "sharePrice": 429.8
 }{
   "code": "321CC",
   "accType": "S",
   "label": "Coca-Cola",
-  "quartDivi": "5.45",
-  "baseROR": "3.1",
-  "beta": "0.075",
+  "quartDivi": 5.45,
+  "baseROR": 3.1,
+  "beta": 0.075,
   "stockSymb": "KO",
-  "sharePrice": "41.08"
+  "sharePrice": 41.08
 }{
   "code": "No1BURR",
   "accType": "S",
   "label": "Chipotle Mexican Grill",
-  "quartDivi": "45.57",
-  "baseROR": "3.19",
-  "beta": "0.0",
+  "quartDivi": 45.57,
+  "baseROR": 3.19,
+  "beta": 0.0,
   "stockSymb": "CMG",
-  "sharePrice": "341.91"
+  "sharePrice": 341.91
 }{
   "code": "B0oWM",
   "accType": "S",
   "label": "Costco",
-  "quartDivi": "10.00",
-  "baseROR": "2.25",
-  "beta": "0.13",
+  "quartDivi": 10.0,
+  "baseROR": 2.25,
+  "beta": 0.13,
   "stockSymb": "COST",
-  "sharePrice": "106.13"
+  "sharePrice": 106.13
 }{
   "code": "N0TPIX",
   "accType": "S",
   "label": "3D Systems",
-  "quartDivi": "0.0",
-  "baseROR": "1.25",
-  "beta": "0.08",
+  "quartDivi": 0.0,
+  "baseROR": 1.25,
+  "beta": 0.08,
   "stockSymb": "DDD",
-  "sharePrice": "35.40"
+  "sharePrice": 35.4
 }{
   "code": "wOOWoo1S",
   "accType": "S",
   "label": "Canadian National Railway",
-  "quartDivi": "2.75",
-  "baseROR": "4.6",
-  "beta": "0.12",
+  "quartDivi": 2.75,
+  "baseROR": 4.6,
+  "beta": 0.12,
   "stockSymb": "CNI",
-  "sharePrice": "97.75"
+  "sharePrice": 97.75
 }{
   "code": "BERK-B",
   "accType": "S",
   "label": "Berkshire Hathaway",
-  "quartDivi": "0.0",
-  "baseROR": "7.2",
-  "beta": "-0.10",
+  "quartDivi": 0.0,
+  "baseROR": 7.2,
+  "beta": -0.1,
   "stockSymb": "BRK-B",
-  "sharePrice": "107.04"
+  "sharePrice": 107.04
 }{
   "code": "RENT445",
   "accType": "P",
-  "quartDivi": "Rental Property",
-  "baseROR": "2400.00",
-  "omega": "0.25",
-  "totalValue": "0.15"
+  "quartDivi": 2400.0,
+  "baseROR": 0.25,
+  "omega": 0.15,
+  "totalValue": 120000.0
 }{
   "code": "CMPROP0121",
   "accType": "P",
-  "quartDivi": "Commercial Property-Red Oaks Mall",
-  "baseROR": "14240",
-  "omega": "5.35",
-  "totalValue": "0.25"
+  "quartDivi": 14240.0,
+  "baseROR": 5.35,
+  "omega": 0.25,
+  "totalValue": 1.0456E7
 }{
   "code": "FOOD12",
   "accType": "P",
-  "quartDivi": "Cluckin\u0027s restaurant chain",
-  "baseROR": "35000.00",
-  "omega": "3.0",
-  "totalValue": "0.32"
+  "quartDivi": 35000.0,
+  "baseROR": 3.0,
+  "omega": 0.32,
+  "totalValue": 1212500.0
 }{
   "code": "REALStr12",
   "accType": "P",
-  "quartDivi": "Fred\u0027s Fabulous Hardware Store",
-  "baseROR": "1232",
-  "omega": "1.23",
-  "totalValue": "0.13"
+  "quartDivi": 1232.0,
+  "baseROR": 1.23,
+  "omega": 0.13,
+  "totalValue": 54300.0
 }{
   "code": "IND321",
   "accType": "P",
-  "quartDivi": "Industrial Widget Manufacturers Inc.",
-  "baseROR": "10500",
-  "omega": "2",
-  "totalValue": "-0.15"
+  "quartDivi": 10500.0,
+  "baseROR": 2.0,
+  "omega": -0.15,
+  "totalValue": 4213333.0
 }{
   "code": "RSTOR322",
   "accType": "P",
-  "quartDivi": "7\" Vinyl Records",
-  "baseROR": "2453.21",
-  "omega": "2.1",
-  "totalValue": "0.54"
+  "quartDivi": 2453.21,
+  "baseROR": 2.1,
+  "omega": 0.54,
+  "totalValue": 13500.0
 }{
   "code": "SAVE01",
   "accType": "D",
   "label": "Savings Account",
-  "apr": "0.25"
+  "apr": 0.25
 }{
   "code": "MONMO1",
   "accType": "D",
   "label": "Money Market Savings",
-  "apr": "1.05"
+  "apr": 1.05
 }{
   "code": "CD5YER",
   "accType": "D",
   "label": "5-year CD",
-  "apr": "4.35"
+  "apr": 4.35
 }{
   "code": "CD1YER",
   "accType": "D",
   "label": "1-year Rollover CD",
-  "apr": "2.75"
+  "apr": 2.75
 }{
   "code": "ROTIRA",
   "accType": "D",
   "label": "Roth IRA",
-  "apr": "3.4"
+  "apr": 3.4
 }{
   "code": "TABLET",
   "accType": "S",
   "label": "Surface Inc",
-  "quartDivi": "0.0",
-  "baseROR": "5.6",
-  "beta": "-0.05",
+  "quartDivi": 0.0,
+  "baseROR": 5.6,
+  "beta": -0.05,
   "stockSymb": "MIC",
-  "sharePrice": "814.708"
+  "sharePrice": 814.708
 }{
   "code": "SCHROK",
   "accType": "S",
   "label": "Schrock Innovation",
-  "quartDivi": "12.00",
-  "baseROR": "3.2",
-  "beta": "0.01",
+  "quartDivi": 12.0,
+  "baseROR": 3.2,
+  "beta": 0.01,
   "stockSymb": "SSI",
-  "sharePrice": "122.75"
+  "sharePrice": 122.75
 }{
   "code": "BUBBAG",
   "accType": "S",
   "label": "BubbaGump Shrimp",
-  "quartDivi": "24.50",
-  "baseROR": "4.3",
-  "beta": "-0.07",
+  "quartDivi": 24.5,
+  "baseROR": 4.3,
+  "beta": -0.07,
   "stockSymb": "BUB",
-  "sharePrice": "429.80"
+  "sharePrice": 429.8
 }{
   "code": "PEPSI1",
   "accType": "S",
   "label": "Pepsi",
-  "quartDivi": "5.45",
-  "baseROR": "3.1",
-  "beta": "0.075",
+  "quartDivi": 5.45,
+  "baseROR": 3.1,
+  "beta": 0.075,
   "stockSymb": "PEP",
-  "sharePrice": "41.08"
+  "sharePrice": 41.08
 }{
   "code": "MILTEC",
   "accType": "S",
   "label": "US Army",
-  "quartDivi": "45.57",
-  "baseROR": "3.19",
-  "beta": "0.0",
+  "quartDivi": 45.57,
+  "baseROR": 3.19,
+  "beta": 0.0,
   "stockSymb": "USA",
-  "sharePrice": "341.91"
+  "sharePrice": 341.91
 }{
   "code": "CD4523",
   "accType": "D",
   "label": "10-year CD",
-  "apr": "8.76"
+  "apr": 8.76
 }{
   "code": "DTh38R",
   "accType": "D",
   "label": "Money Market Account",
-  "apr": "0.96"
+  "apr": 0.96
 }{
   "code": "YHOO003",
   "accType": "S",
   "label": "Yahoo! Inc.",
-  "quartDivi": "0.0",
-  "baseROR": "3.4",
-  "beta": "-0.03",
+  "quartDivi": 0.0,
+  "baseROR": 3.4,
+  "beta": -0.03,
   "stockSymb": "YHOO",
-  "sharePrice": "28.17"
+  "sharePrice": 28.17
 }{
   "code": "MSFT007",
   "accType": "S",
   "label": "Microsoft Corporation",
-  "quartDivi": "0.92",
-  "baseROR": "4.1",
-  "beta": "0.17",
+  "quartDivi": 0.92,
+  "baseROR": 4.1,
+  "beta": 0.17,
   "stockSymb": "MSFT",
-  "sharePrice": "31.15"
+  "sharePrice": 31.15
 }{
   "code": "THRE456",
   "accType": "P",
-  "quartDivi": "Three-14 Pi Shop",
-  "baseROR": "1050.50",
-  "omega": "5.6",
-  "totalValue": "0.33"
+  "quartDivi": 1050.5,
+  "baseROR": 5.6,
+  "omega": 0.33,
+  "totalValue": 23006.53
 }{
   "code": "BIKE035",
   "accType": "P",
-  "quartDivi": "Buck\u0027s Bike Store",
-  "baseROR": "3678.19",
-  "omega": "3.9",
-  "totalValue": "0.48"
+  "quartDivi": 3678.19,
+  "baseROR": 3.9,
+  "omega": 0.48,
+  "totalValue": 47800.35
 }{
   "code": "SVSVNGS",
   "accType": "D",
   "label": "Savings Account",
-  "apr": "0.08"
+  "apr": 0.08
 }{
   "code": "TWTTER01",
   "accType": "S",
   "label": "Twitter Inc.",
-  "quartDivi": "23",
-  "baseROR": "11",
-  "beta": "-0.1",
+  "quartDivi": 23.0,
+  "baseROR": 11.0,
+  "beta": -0.1,
   "stockSymb": "TWTR",
-  "sharePrice": "324.23"
+  "sharePrice": 324.23
 }{
   "code": "GLDSD03",
   "accType": "P",
-  "quartDivi": "Gold",
-  "baseROR": "0",
-  "omega": "0.24",
-  "totalValue": "0.12"
+  "quartDivi": 0.0,
+  "baseROR": 0.24,
+  "omega": 0.12,
+  "totalValue": 2343212.0
 }{
   "code": "MSFT32",
   "accType": "S",
   "label": "Microsoft Inc.",
-  "quartDivi": "12",
-  "baseROR": "0.013",
-  "beta": "0.45",
+  "quartDivi": 12.0,
+  "baseROR": 0.013,
+  "beta": 0.45,
   "stockSymb": "MSFT",
-  "sharePrice": "30.23"
+  "sharePrice": 30.23
 }{
   "code": "CPPRD03",
   "accType": "P",
-  "quartDivi": "Copper",
-  "baseROR": "1",
-  "omega": "0.11",
-  "totalValue": "0.15"
+  "quartDivi": 1.0,
+  "baseROR": 0.11,
+  "omega": 0.15,
+  "totalValue": 1111.0
 }{
   "code": "ESPN001",
   "accType": "D",
   "label": "Huskers",
-  "apr": "8.5"
+  "apr": 8.5
 }{
   "code": "SEARCH8",
   "accType": "D",
   "label": "Yahoo",
-  "apr": "1.34"
+  "apr": 1.34
 }{
   "code": "VTST",
   "accType": "D",
   "label": "Geigco",
-  "apr": "1.78"
+  "apr": 1.78
 }{
   "code": "WESYT129",
   "accType": "S",
   "label": "Bank of America",
-  "quartDivi": "3.25",
-  "baseROR": "2.4",
-  "beta": "0.02",
+  "quartDivi": 3.25,
+  "baseROR": 2.4,
+  "beta": 0.02,
   "stockSymb": "BOA",
-  "sharePrice": "143.18"
+  "sharePrice": 143.18
 }{
   "code": "PWES912",
   "accType": "S",
   "label": "PEPSI INC",
-  "quartDivi": "5.24",
-  "baseROR": "8.14",
-  "beta": "0.03",
+  "quartDivi": 5.24,
+  "baseROR": 8.14,
+  "beta": 0.03,
   "stockSymb": "PEP",
-  "sharePrice": "87.25"
+  "sharePrice": 87.25
 }{
   "code": "YUOPCT",
   "accType": "P",
-  "quartDivi": "WALMART",
-  "baseROR": "4789.32",
-  "omega": "0.32",
-  "totalValue": "0.17"
+  "quartDivi": 4789.32,
+  "baseROR": 0.32,
+  "omega": 0.17,
+  "totalValue": 1004780.66
 }{
   "code": "DR0U7Z5TW",
   "accType": "P",
-  "quartDivi": "TARGET",
-  "baseROR": "7812.41",
-  "omega": "2.5",
-  "totalValue": "0.39"
+  "quartDivi": 7812.41,
+  "baseROR": 2.5,
+  "omega": 0.39,
+  "totalValue": 58963.27
 }{
   "code": "TEWS4A1MO",
   "accType": "P",
-  "quartDivi": "AMAZON",
-  "baseROR": "9631.45",
-  "omega": "0.64",
-  "totalValue": "0.25"
+  "quartDivi": 9631.45,
+  "baseROR": 0.64,
+  "omega": 0.25,
+  "totalValue": 296352.87
 }

@@ -8,15 +8,15 @@ public class Stocks {
 	private String code;
 	private String accType;
 	private String label;
-	private String quartDivi;
-	private String baseROR;
-	private String beta;
+	private double quartDivi;
+	private double baseROR;
+	private double beta;
 	private String stockSymb;
-	private String sharePrice;
+	private double sharePrice;
 	
 	
-	public Stocks(String code, String accType, String label, String quartDivi, String baseROR, String beta,
-			String stockSymb, String sharePrice) {
+	public Stocks(String code, String accType, String label, double quartDivi, double baseROR, double beta,
+			String stockSymb, double sharePrice) {
 		super();
 		this.code = code;
 		this.accType = accType;
@@ -30,7 +30,7 @@ public class Stocks {
 	
 	
 	public Stocks() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 
@@ -52,22 +52,22 @@ public class Stocks {
 	public void setLabel(String label) {
 		this.label = label;
 	}
-	public String getQuartDivi() {
+	public double getQuartDivi() {
 		return quartDivi;
 	}
-	public void setQuartDivi(String quartDivi) {
+	public void setQuartDivi(double quartDivi) {
 		this.quartDivi = quartDivi;
 	}
-	public String getBaseROR() {
+	public double getBaseROR() {
 		return baseROR;
 	}
-	public void setBaseROR(String baseROR) {
+	public void setBaseROR(double baseROR) {
 		this.baseROR = baseROR;
 	}
-	public String getBeta() {
+	public double getBeta() {
 		return beta;
 	}
-	public void setBeta(String beta) {
+	public void setBeta(double beta) {
 		this.beta = beta;
 	}
 	public String getStockSymb() {
@@ -76,10 +76,10 @@ public class Stocks {
 	public void setStockSymb(String stockSymb) {
 		this.stockSymb = stockSymb;
 	}
-	public String getSharePrice() {
+	public double getSharePrice() {
 		return sharePrice;
 	}
-	public void setSharePrice(String sharePrice) {
+	public void setSharePrice(double sharePrice) {
 		this.sharePrice = sharePrice;
 	}
 

@@ -7,13 +7,13 @@ package com.tbf;
 public class PrivateInvest {
 	private String code;
 	private String accType;
-	private String quartDivi;
-	private String baseROR;
-	private String omega;
-	private String totalValue;
+	private String label;
+	private double quartDivi;
+	private double baseROR;
+	private double omega;
+	private double totalValue;
 	
-	public PrivateInvest(String code, String accType, String quartDivi, String baseROR, String omega,
-			String totalValue) {
+	public PrivateInvest(String code, String accType, String label, double quartDivi, double baseROR, double omega, double totalValue) {
 		super();
 		this.code = code;
 		this.accType = accType;
@@ -41,29 +41,39 @@ public class PrivateInvest {
 	public void setAccType(String accType) {
 		this.accType = accType;
 	}
-	public String getQuartDivi() {
+	public double getQuartDivi() {
 		return quartDivi;
 	}
-	public void setQuartDivi(String quartDivi) {
+	public void setQuartDivi(double quartDivi) {
 		this.quartDivi = quartDivi;
 	}
-	public String getBaseROR() {
+	public double getBaseROR() {
 		return baseROR;
 	}
-	public void setBaseROR(String baseROR) {
+	public void setBaseROR(double baseROR) {
 		this.baseROR = baseROR;
 	}
-	public String getOmega() {
+	public double getOmega() {
 		return omega;
 	}
-	public void setOmega(String omega) {
+	public void setOmega(double omega) {
 		this.omega = omega;
 	}
-	public String getTotalValue() {
+	public double getTotalValue() {
 		return totalValue;
 	}
-	public void setTotalValue(String totalValue) {
+	public void setTotalValue(double totalValue) {
 		this.totalValue = totalValue;
+	}
+
+
+	public String getLabel() {
+		return label;
+	}
+
+
+	public void setLabel(String label) {
+		this.label = label;
 	}
 
 }
