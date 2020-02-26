@@ -5,7 +5,13 @@
     "firstName": " Starlin",
     "lastName": "Castro"
   },
-  "Address": "Castro, Starlin",
+  "address": {
+    "street": "1060 West Addison Street",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60613",
+    "country": "USA"
+  },
   "emailAddress": [
     "scastro@cubs.com,starlin_castro13@gmail.com"
   ]
@@ -16,7 +22,13 @@
     "firstName": " Brock",
     "lastName": "Sampson"
   },
-  "Address": "Sampson, Brock",
+  "address": {
+    "street": "123 N 1st Street",
+    "city": "Omaha",
+    "state": "NE",
+    "zip": "68116",
+    "country": "USA"
+  },
   "emailAddress": [
     "brock_f_sampson@gmail.com,bsampson@venture.com"
   ]
@@ -27,7 +39,13 @@
     "firstName": " Miles",
     "lastName": "O\u0027Brien"
   },
-  "Address": "O\u0027Brien, Miles"
+  "address": {
+    "street": "123 Friendly Street",
+    "city": "Ottawa",
+    "state": "ON",
+    "zip": "K1A 0G9",
+    "country": "Canada"
+  }
 }{
   "personCode": "aef1",
   "brokerStatus": "E,sec001",
@@ -35,7 +53,13 @@
     "firstName": " Gordon",
     "lastName": "Gekko"
   },
-  "Address": "Gekko, Gordon"
+  "address": {
+    "street": "1 Wall Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10005-0012",
+    "country": "USA"
+  }
 }{
   "personCode": "321f",
   "brokerStatus": "J,sec991",
@@ -43,7 +67,13 @@
     "firstName": " Bud",
     "lastName": "Fox"
   },
-  "Address": "Fox, Bud",
+  "address": {
+    "street": "321 Bronx Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10004",
+    "country": "USA"
+  },
   "emailAddress": [
     "bfox@gmail.com,csheen@crazy.net"
   ]
@@ -54,7 +84,13 @@
     "firstName": " Dale",
     "lastName": "Sveum"
   },
-  "Address": "Sveum, Dale",
+  "address": {
+    "street": "1060 West Addison Street",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60613",
+    "country": "USA"
+  },
   "emailAddress": [
     "sveum@cubs.com"
   ]
@@ -65,7 +101,13 @@
     "firstName": " William",
     "lastName": "Hartnell"
   },
-  "Address": "Hartnell, William",
+  "address": {
+    "street": "1060 West Addison Street",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60613",
+    "country": "USA"
+  },
   "emailAddress": [
     "whartnell@doctors.com,dr@who.com"
   ]
@@ -76,7 +118,13 @@
     "firstName": " Patrick",
     "lastName": "Troughton"
   },
-  "Address": "Troughton, Patrick",
+  "address": {
+    "street": "1060 West Addison Street",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60613",
+    "country": "USA"
+  },
   "emailAddress": [
     "ptroug@cse.unl.edu,ptrou32@unl.edu"
   ]
@@ -87,7 +135,13 @@
     "firstName": " Jon",
     "lastName": "Pertwee"
   },
-  "Address": "Pertwee, Jon",
+  "address": {
+    "street": "301 Front St W",
+    "city": " Toronto",
+    "state": " ON",
+    "zip": " M5V 2T6",
+    "country": " Canada"
+  },
   "emailAddress": [
     "jpet@whofan.com"
   ]
@@ -98,7 +152,13 @@
     "firstName": "Tom",
     "lastName": "Baker"
   },
-  "Address": "Baker,Tom",
+  "address": {
+    "street": "1 Blue Jays Way",
+    "city": " Toronto",
+    "state": " ON",
+    "zip": " M5V 1J1",
+    "country": " Canada"
+  },
   "emailAddress": [
     "famousdoc@who.com,tbaker@cse.unl.edu,mostfamous@whovian.com,thedoctor@bbc.com"
   ]
@@ -109,7 +169,13 @@
     "firstName": " Peter",
     "lastName": "Davison"
   },
-  "Address": "Davison, Peter"
+  "address": {
+    "street": "23450 Cabo San Lucas",
+    "city": " Los Cabos",
+    "state": " BCS",
+    "zip": "",
+    "country": " Mexico"
+  }
 }{
   "personCode": "6doc",
   "brokerStatus": "J,sec982",
@@ -117,7 +183,13 @@
     "firstName": " Richard",
     "lastName": "Hurndall"
   },
-  "Address": "Hurndall, Richard",
+  "address": {
+    "street": "Campos El290",
+    "city": "Mexico City",
+    "state": " FD",
+    "zip": "",
+    "country": " Mexico"
+  },
   "emailAddress": [
     "rhurndall@cse.unl.edu,richard@unl.edu"
   ]
@@ -128,7 +200,13 @@
     "firstName": " C.",
     "lastName": "Baker"
   },
-  "Address": "Baker, C.",
+  "address": {
+    "street": "Avery Hall",
+    "city": "Lincoln",
+    "state": "NE",
+    "zip": "68503",
+    "country": "USA"
+  },
   "emailAddress": [
     "dr@baker.com"
   ]
@@ -139,7 +217,13 @@
     "firstName": "Sylvester",
     "lastName": "McCoy"
   },
-  "Address": "McCoy,Sylvester",
+  "address": {
+    "street": "126-01 Roosevelt Ave",
+    "city": " Flushing",
+    "state": " NY",
+    "zip": "11368",
+    "country": "USA"
+  },
   "emailAddress": [
     "slyguy@hotmail.com,mccoy@whofan.com"
   ]
@@ -150,7 +234,13 @@
     "firstName": " Paul",
     "lastName": "McGann"
   },
-  "Address": "McGann, Paul",
+  "address": {
+    "street": "1 MetLife Stadium Dr",
+    "city": " East Rutherford",
+    "state": " NJ",
+    "zip": "07073",
+    "country": "USA"
+  },
   "emailAddress": [
     "pmcgann@mlb.com,foo@bar.com,pmc@unl.edu"
   ]
@@ -161,7 +251,13 @@
     "firstName": " Chris",
     "lastName": "Eccleston"
   },
-  "Address": "Eccleston, Chris",
+  "address": {
+    "street": "1 E 161st St",
+    "city": " Bronx",
+    "state": " NY",
+    "zip": "10451",
+    "country": "USA"
+  },
   "emailAddress": [
     "newguy@whovian.com"
   ]
@@ -172,7 +268,13 @@
     "firstName": " David",
     "lastName": "Tennant"
   },
-  "Address": "Tennant, David",
+  "address": {
+    "street": "700 E Grand Ave",
+    "city": " Chicago",
+    "state": " IL",
+    "zip": " 60611",
+    "country": "USA"
+  },
   "emailAddress": [
     "actor@shakespeare.com,tdavid@unl.edu"
   ]
@@ -183,7 +285,13 @@
     "firstName": " Matt",
     "lastName": "Smith"
   },
-  "Address": "Smith, Matt",
+  "address": {
+    "street": "333 W 35th St",
+    "city": " Chicago",
+    "state": " IL",
+    "zip": "60616",
+    "country": "USA"
+  },
   "emailAddress": [
     "msmith@who.com,thedoc@cse.unl.edu"
   ]
@@ -194,7 +302,13 @@
     "firstName": " Kaylee",
     "lastName": "Ehrmantraut"
   },
-  "Address": "Ehrmantraut, Kaylee"
+  "address": {
+    "street": "800 West 7th Street",
+    "city": " Albuquerque",
+    "state": " NM",
+    "zip": " 87105",
+    "country": "USA"
+  }
 }{
   "personCode": "0102",
   "brokerStatus": "",
@@ -202,7 +316,13 @@
     "firstName": " Fidel",
     "lastName": "Castro"
   },
-  "Address": "Castro, Fidel",
+  "address": {
+    "street": "123 Madison Avenue",
+    "city": " Bodega",
+    "state": " NL",
+    "zip": "",
+    "country": "CUBA"
+  },
   "emailAddress": [
     "fcastro@socialist.gov"
   ]
@@ -213,7 +333,13 @@
     "firstName": " Trey",
     "lastName": "Shakura"
   },
-  "Address": "Shakura, Trey"
+  "address": {
+    "street": "123 N 1st Street",
+    "city": "Compton",
+    "state": "CA",
+    "zip": "90210",
+    "country": "USA"
+  }
 }{
   "personCode": "8008",
   "brokerStatus": "",
@@ -221,7 +347,13 @@
     "firstName": " Conan",
     "lastName": "O\u0027Brien"
   },
-  "Address": "O\u0027Brien, Conan"
+  "address": {
+    "street": "123 Madison Ave",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10005",
+    "country": "USA"
+  }
 }{
   "personCode": "LEAF",
   "brokerStatus": "",
@@ -229,7 +361,13 @@
     "firstName": " Walter",
     "lastName": "White"
   },
-  "Address": "White, Walter",
+  "address": {
+    "street": "100 W Fake Street",
+    "city": "Albaquerque",
+    "state": "NM",
+    "zip": "80706",
+    "country": "USA"
+  },
   "emailAddress": [
     "heisenburg@savewalter.com"
   ]
@@ -240,7 +378,13 @@
     "firstName": " Ice",
     "lastName": "Cube"
   },
-  "Address": "Cube, Ice",
+  "address": {
+    "street": "124 Easy Street",
+    "city": "Detroit",
+    "state": "MI",
+    "zip": "48202",
+    "country": "USA"
+  },
   "emailAddress": [
     "ezpleazin@iamnotvanillaicethanks.net,neverforgetthatiamnotvanillaice@jokesonyou.edu"
   ]
@@ -251,7 +395,13 @@
     "firstName": " Tommy",
     "lastName": "Frazier"
   },
-  "Address": "Frazier, Tommy",
+  "address": {
+    "street": "6700 Vine St",
+    "city": "Lincoln",
+    "state": "NE",
+    "zip": "68505",
+    "country": "USA"
+  },
   "emailAddress": [
     "tommy.frazier@unl.edu,tpayne@history.gov"
   ]
@@ -262,7 +412,13 @@
     "firstName": "Tommy",
     "lastName": "Tutone"
   },
-  "Address": "Tutone,Tommy",
+  "address": {
+    "street": "1017 BlueJay Way",
+    "city": " London",
+    "state": " DA",
+    "zip": " 070708",
+    "country": " England"
+  },
   "emailAddress": [
     "damnu@tommytutone.edu,gummybears@myspace.com"
   ]
@@ -273,7 +429,13 @@
     "firstName": " Jeff",
     "lastName": "Gordon"
   },
-  "Address": "Gordon, Jeff"
+  "address": {
+    "street": "123 Talledega Road",
+    "city": "Tallahasse",
+    "state": "TN",
+    "zip": "34345",
+    "country": "USA"
+  }
 }{
   "personCode": "M1LF",
   "brokerStatus": "J,sec666",
@@ -281,7 +443,13 @@
     "firstName": " Barry",
     "lastName": "White"
   },
-  "Address": "White, Barry",
+  "address": {
+    "street": "321 Bronx Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10004",
+    "country": "USA"
+  },
   "emailAddress": [
     "takeoffthatbraziermydear@thisisbarry.edu"
   ]
@@ -292,7 +460,13 @@
     "firstName": " Fox",
     "lastName": "Mulder"
   },
-  "Address": "Mulder, Fox",
+  "address": {
+    "street": "935 Pennsylvania Ave NW",
+    "city": " Washington DC",
+    "state": " DC",
+    "zip": " 20535",
+    "country": " USA"
+  },
   "emailAddress": [
     "spooky@fbi.gov,iwnt2bleve@yahoo.com"
   ]
@@ -303,7 +477,13 @@
     "firstName": " Douglas",
     "lastName": "Falcon"
   },
-  "Address": "Falcon, Douglas",
+  "address": {
+    "street": "500 Areo Drive",
+    "city": "Port Town",
+    "state": "CA",
+    "zip": "90010",
+    "country": "USA"
+  },
   "emailAddress": [
     "cfalcon@fzero.com"
   ]
@@ -314,7 +494,13 @@
     "firstName": " Light",
     "lastName": "Yagami"
   },
-  "Address": "Yagami, Light"
+  "address": {
+    "street": "123 Tsune kuni",
+    "city": "Hamamatsu City",
+    "state": "Toyama Prefecture",
+    "zip": "",
+    "country": "Japan"
+  }
 }{
   "personCode": "kd93n",
   "brokerStatus": "J,sec928",
@@ -322,7 +508,13 @@
     "firstName": " Joe",
     "lastName": "Johnson"
   },
-  "Address": "Johnson, Joe",
+  "address": {
+    "street": "35 Main Street",
+    "city": "Springfield",
+    "state": "IL",
+    "zip": "62702",
+    "country": "USA"
+  },
   "emailAddress": [
     "jjohnson@somewhere.com,averagejoe@someplace.com"
   ]
@@ -333,7 +525,13 @@
     "firstName": " Barak",
     "lastName": "Obama"
   },
-  "Address": "Obama, Barak",
+  "address": {
+    "street": "23432 Madison Ave",
+    "city": " New York",
+    "state": " NY",
+    "zip": " 23432",
+    "country": " USA"
+  },
   "emailAddress": [
     "barak@obama.com"
   ]
@@ -344,7 +542,13 @@
     "firstName": " George",
     "lastName": "Bush"
   },
-  "Address": "Bush, George",
+  "address": {
+    "street": "111 1st St",
+    "city": " Toronto",
+    "state": " NE",
+    "zip": " 23125",
+    "country": " USA"
+  },
   "emailAddress": [
     "george@bush.com"
   ]
@@ -355,7 +559,13 @@
     "firstName": " Bill",
     "lastName": "Clinton"
   },
-  "Address": "Clinton, Bill"
+  "address": {
+    "street": "6453 3nd",
+    "city": " High St",
+    "state": " Lincoln",
+    "zip": " NE",
+    "country": " 12122"
+  }
 }{
   "personCode": "ej556",
   "brokerStatus": "",
@@ -363,7 +573,13 @@
     "firstName": " George Sr.",
     "lastName": "Bush"
   },
-  "Address": "Bush, George Sr.",
+  "address": {
+    "street": "999 1st St",
+    "city": " Chicago",
+    "state": "IL",
+    "zip": " 23452",
+    "country": " USA"
+  },
   "emailAddress": [
     "     george@bush.com, bush@whitehouse.com, bush@taxas.gov"
   ]
@@ -374,7 +590,13 @@
     "firstName": " Ronald",
     "lastName": "Regant"
   },
-  "Address": "Regant, Ronald"
+  "address": {
+    "street": "1 Maple Leave St",
+    "city": " Ottowa",
+    "state": " Ontario ",
+    "zip": "M5V 1G3",
+    "country": " Canada"
+  }
 }{
   "personCode": "23fs",
   "brokerStatus": "J,sec532",
@@ -382,7 +604,13 @@
     "firstName": " Carter",
     "lastName": "Jimmy"
   },
-  "Address": "Jimmy, Carter",
+  "address": {
+    "street": "123 Math Drive",
+    "city": " Omaha",
+    "state": " NE",
+    "zip": "11111",
+    "country": "USA"
+  },
   "emailAddress": [
     "jimmy@carter.com"
   ]
@@ -393,7 +621,13 @@
     "firstName": " Smith",
     "lastName": "Bob"
   },
-  "Address": "Bob, Smith",
+  "address": {
+    "street": "123 Bob Drive",
+    "city": " Seattle",
+    "state": " NE",
+    "zip": " 23432",
+    "country": " USA"
+  },
   "emailAddress": [
     "bobsmith2343@gmail.com"
   ]
@@ -404,7 +638,13 @@
     "firstName": " John",
     "lastName": "Alden"
   },
-  "Address": "Alden, John",
+  "address": {
+    "street": "1243 West O Street",
+    "city": "Lincoln",
+    "state": "NE",
+    "zip": "68415",
+    "country": "USA"
+  },
   "emailAddress": [
     "aj@gmail.com"
   ]
@@ -415,7 +655,13 @@
     "firstName": " Roam",
     "lastName": "Jenny"
   },
-  "Address": "Jenny, Roam",
+  "address": {
+    "street": "521 Adam Street",
+    "city": "Omaha",
+    "state": "NE",
+    "zip": "68471",
+    "country": "USA"
+  },
   "emailAddress": [
     "jr1834@hotmail.com"
   ]
@@ -426,7 +672,13 @@
     "firstName": " Chrik",
     "lastName": "Waston"
   },
-  "Address": "Waston, Chrik",
+  "address": {
+    "street": "321 Lemon Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10012",
+    "country": "USA"
+  },
   "emailAddress": [
     "wc345@gmail.com,wc345@who.com"
   ]
@@ -437,7 +689,13 @@
     "firstName": "Lee",
     "lastName": "Adam"
   },
-  "Address": "Adam,Lee"
+  "address": {
+    "street": "511 Avery Hall",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "14520",
+    "country": "USA"
+  }
 }{
   "personCode": "dot105",
   "brokerStatus": "",
@@ -445,7 +703,13 @@
     "firstName": " Peter",
     "lastName": "Davison"
   },
-  "Address": "Davison, Peter"
+  "address": {
+    "street": "123 Cabo San Lucas",
+    "city": " Los",
+    "state": " BS",
+    "zip": " ",
+    "country": " Mexico"
+  }
 }{
   "personCode": "usp12",
   "brokerStatus": "",
@@ -453,7 +717,13 @@
     "firstName": "Sim",
     "lastName": "John"
   },
-  "Address": "John,Sim",
+  "address": {
+    "street": "142 Drive",
+    "city": " Shanghai",
+    "state": "",
+    "zip": "200012",
+    "country": "China"
+  },
   "emailAddress": [
     "123@gwoo.com"
   ]
@@ -464,7 +734,13 @@
     "firstName": "Wang",
     "lastName": "Wei"
   },
-  "Address": "Wei,Wang",
+  "address": {
+    "street": "478 A street",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "47891",
+    "country": "USA"
+  },
   "emailAddress": [
     "wweiz2@gmail.com"
   ]
@@ -475,7 +751,13 @@
     "firstName": "Cherry",
     "lastName": "Brittany"
   },
-  "Address": "Brittany,Cherry"
+  "address": {
+    "street": "1478 Maple Dr.",
+    "city": "Ogalalla",
+    "state": "NE",
+    "zip": "68501",
+    "country": "USA"
+  }
 }{
   "personCode": "wetet23",
   "brokerStatus": "",
@@ -483,7 +765,13 @@
     "firstName": "John",
     "lastName": "Frank"
   },
-  "Address": "Frank,John",
+  "address": {
+    "street": "124 Hello world Dr.",
+    "city": "Mccook",
+    "state": "NE",
+    "zip": "57814",
+    "country": "USA"
+  },
   "emailAddress": [
     "fj2@zoo.com"
   ]
@@ -494,7 +782,13 @@
     "firstName": " Adison",
     "lastName": "Tom"
   },
-  "Address": "Tom, Adison",
+  "address": {
+    "street": "7814 Jordan Street",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "65203",
+    "country": "USA"
+  },
   "emailAddress": [
     "tadison@unl.edu"
   ]
@@ -505,7 +799,13 @@
     "firstName": " Smiths",
     "lastName": "Peter"
   },
-  "Address": "Peter, Smiths",
+  "address": {
+    "street": "1596 Apple Street",
+    "city": "Flushing",
+    "state": "NY",
+    "zip": "10451",
+    "country": "USA"
+  },
   "emailAddress": [
     "ps1991@huskers.unl.edu,ps1991@gmail.com"
   ]
@@ -516,7 +816,13 @@
     "firstName": " Frank",
     "lastName": "Gorge"
   },
-  "Address": "Gorge, Frank",
+  "address": {
+    "street": "478 South 87th Street",
+    "city": "Grand Island",
+    "state": "NE",
+    "zip": "64789",
+    "country": "USA"
+  },
   "emailAddress": [
     "gfrank001@huskers.unl.edu"
   ]
@@ -527,7 +833,13 @@
     "firstName": " Mike",
     "lastName": "Ellen"
   },
-  "Address": "Ellen, Mike",
+  "address": {
+    "street": "489 Grand Street",
+    "city": "Boston",
+    "state": "MA",
+    "zip": "14258",
+    "country": "USA"
+  },
   "emailAddress": [
     "emike@hotmail.com,emike2@yahoo.com"
   ]
@@ -538,7 +850,13 @@
     "firstName": " Paul",
     "lastName": "Tony"
   },
-  "Address": "Tony, Paul",
+  "address": {
+    "street": "2314 North 18th Street",
+    "city": "Kansas City",
+    "state": "KS",
+    "zip": "54723",
+    "country": "USA"
+  },
   "emailAddress": [
     "tpaul@who.com"
   ]
@@ -549,7 +867,13 @@
     "firstName": " Hunter",
     "lastName": "David"
   },
-  "Address": "David, Hunter",
+  "address": {
+    "street": "4789 Lake Street",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60123",
+    "country": "USA"
+  },
   "emailAddress": [
     "davidhunter@yahoo.com,dv123@who.com"
   ]
