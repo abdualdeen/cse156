@@ -93,5 +93,10 @@ public class Stock extends Asset {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	@Override
+	public double getPercentStake() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

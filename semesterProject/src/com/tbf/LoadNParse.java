@@ -95,40 +95,110 @@ public class LoadNParse {
 			String line = inputFile.nextLine();
 			String tokens[] = line.split(";");
 			//saving the new information from the portfolio into the classes
-			String assTokens[] = tokens[4].split(",");
+//			String assTokens[] = tokens[4].split(",");
 			List<Asset> assList = parseAssetsFile();
 			List<Asset> newList = new ArrayList<Asset>();
 			Asset newAss = null;
-			for (Asset a : assList) {
-				for (String s : assTokens) {
-					if(s.contains(a.getCode())) {
-						String oneAsset[] = s.split(":");
-						if(a.getAccType() == "D") {
-							newAss = new DepositAsset(a.getCode(), a.getAccType(), a.getLabel(), a.getApr(), Double.parseDouble(oneAsset[1]));
-						} else if (a.getAccType() == "S") {
-							newAss = new Stock(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getBeta(), a.getStockSymb(), 
-									a.getSharePrice(), Integer.parseInt(oneAsset[1]));
-						} else if (a.getAccType() == "P"){
-							newAss = new PrivateInvest(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getOmega(), 
-									a.getTotalValue(), Double.parseDouble(oneAsset[1]));
+//			if (tokens.length > 4) {
+//				String assTokens[] = tokens[4].split(",");
+//				for (Asset a : assList) {
+//					for (String s : assTokens) {
+//						if(s.contains(a.getCode())) {
+//							String oneAsset[] = s.split(":");
+//							if(a.getAccType() == "D") {
+//								newAss = new DepositAsset(a.getCode(), a.getAccType(), a.getLabel(), a.getApr(), Double.parseDouble(oneAsset[1]));
+//							} else if (a.getAccType() == "S") {
+//								newAss = new Stock(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getBeta(), a.getStockSymb(), 
+//										a.getSharePrice(), Integer.parseInt(oneAsset[1]));
+//							} else if (a.getAccType() == "P"){
+//								newAss = new PrivateInvest(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getOmega(), 
+//										a.getTotalValue(), Double.parseDouble(oneAsset[1]));
+//							}
+//							newList.add(newAss);
+//						}
+//					}
+//				}
+//			}
+			//*****************
+			if (tokens.length > 4) {
+				String assTokens[] = tokens[4].split(",");
+					for (String s : assTokens) {
+						for (Asset a : assList) {
+						if(a.getCode().contains(s)) {
+							String oneAsset[] = s.split(":");
+							if(a.getAccType() == "D") {
+								newAss = new DepositAsset(a.getCode(), a.getAccType(), a.getLabel(), a.getApr(), Double.parseDouble(oneAsset[1]));
+							} else if (a.getAccType() == "S") {
+								newAss = new Stock(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getBeta(), a.getStockSymb(), 
+										a.getSharePrice(), Integer.parseInt(oneAsset[1]));
+							} else if (a.getAccType() == "P"){
+								newAss = new PrivateInvest(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getOmega(), 
+										a.getTotalValue(), Double.parseDouble(oneAsset[1]));
+							}
+							newList.add(newAss);
 						}
-						newList.add(newAss);
 					}
 				}
 			}
+			
+			
+			
+			//*****************
+			
+//			for (Asset a : assList) {
+//				for (String s : assTokens) {
+//					if(s.contains(a.getCode())) {
+//						String oneAsset[] = s.split(":");
+//						if(a.getAccType() == "D") {
+//							newAss = new DepositAsset(a.getCode(), a.getAccType(), a.getLabel(), a.getApr(), Double.parseDouble(oneAsset[1]));
+//						} else if (a.getAccType() == "S") {
+//							newAss = new Stock(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getBeta(), a.getStockSymb(), 
+//									a.getSharePrice(), Integer.parseInt(oneAsset[1]));
+//						} else if (a.getAccType() == "P"){
+//							newAss = new PrivateInvest(a.getCode(), a.getAccType(), a.getLabel(), a.getQuartDivi(), a.getBaseROR(), a.getOmega(), 
+//									a.getTotalValue(), Double.parseDouble(oneAsset[1]));
+//						}
+//						newList.add(newAss);
+//					}
+//				}
+//			}
 			Portfolio newPort = null;
+			Person owner = getPerson(tokens[1]);
+			Person manag = null;
+			Person benef = null;
+			manag = getPerson(tokens[2]);
+			if (tokens.length > 3) {
+				benef = getPerson(tokens[3]);
+			}
+			
 			if (tokens.length == 3) {
-				newPort = new Portfolio(tokens[0], tokens[1], tokens[2]);
+				newPort = new Portfolio(tokens[0], owner, manag);
 
 			} else if (tokens.length == 4) {
-				newPort = new Portfolio(tokens[0], tokens[1], tokens[2], tokens[3]);
+				newPort = new Portfolio(tokens[0], owner, manag, benef);
 			} else {
-				newPort = new Portfolio(tokens[0], tokens[1], tokens[2], tokens[3], newList);
+				newPort = new Portfolio(tokens[0], owner, manag, benef, newList);
 			}
 			portList.add(newPort);
 		}
 		
 		return portList;
+	}
+	
+	public static Person getPerson(String token) {
+		Person thisPerson = new Person();
+		if (token.length() < 1){
+			thisPerson = null;
+		} else {
+			List<Person> persList = parsePersonsFile();
+			for (Person p : persList) {
+				if (p.getPersonCode().contains(token)) {
+					thisPerson = p;
+				}
+			}
+		}
+		
+		return thisPerson;
 	}
 	
 //	private List<Portfolio> getPortfolioAssets(String assetToken){
